@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mutability")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de20df7d29181a77bef4b64cce142e16e42c176d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mutability")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mutability")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
