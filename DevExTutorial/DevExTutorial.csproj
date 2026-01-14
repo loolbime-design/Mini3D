@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IncludePackageReferencesDuringMarkupCompilation>true</IncludePackageReferencesDuringMarkupCompilation>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Images" Version="25.1.7" />
+    <PackageReference Include="DevExpress.Win.Design" Version="25.1.7" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="25.1.7" />
+    <PackageReference Include="DevExpress.Wpf.ThemesLW" Version="25.1.7" />
+    <PackageReference Include="DevExpress.Mvvm.CodeGenerators" Version="22.1.*-*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DevExpress.Mvvm.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Mvvm.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Accordion.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Xpf.Accordion.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Xpf.Core.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Xpf.Docking.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Xpf.LayoutControl.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Xpf.Ribbon.v25.1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

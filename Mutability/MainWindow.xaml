@@ -1,0 +1,12 @@
+﻿<Window x:Class="LearnDrawing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:LearnDrawing"
+        Title="DrawingVisual Demo"
+        WindowState="Maximized"
+        Background="White">
+
+    <Grid Background="Black">
+        <local:DrawIt />
+    </Grid>
+</Window>

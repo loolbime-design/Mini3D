@@ -1,0 +1,24 @@
+﻿<Window x:Class="tutorial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tutorial"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        
+        
+        <Rectangle Grid.Row="0" Fill="red" />
+        <Rectangle Grid.Row="1" Fill="Green" />
+        <GridSplitter Grid.Row="2" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Center" Background="Gray" ShowsPreview="True" />
+        <Rectangle Grid.Row="3" Fill="Blue" />
+
+    </Grid>
+</Window>
