@@ -1,5 +1,7 @@
 # Mini3D – Software 3D Engine in WPF (C#)
 
+![Real-time 3D penguin Rendering](my_image.png)
+
 Mini3D is a lightweight **software-based 3D rendering engine** written entirely in **C# using WPF**, built **from scratch without any 3D frameworks** (no DirectX, no OpenGL, no WPF 3D).
 
 The goal of this project is to demonstrate the **fundamental principles of 3D graphics programming** using pure math and WPF drawing primitives.
@@ -45,3 +47,4 @@ The goal of this project is to demonstrate the **fundamental principles of 3D gr
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Mini3D.git
+
